@@ -39,6 +39,10 @@ class App extends Component{
     this.setState({input: event.target.value});
   }
 
+  calculateFaceLocation = (data) => {
+    
+  }
+
   onButtonSubmit = () => {
     
     this.setState({imageUrl: this.state.input});
